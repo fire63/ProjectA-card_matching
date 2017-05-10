@@ -10,11 +10,11 @@
     <Filter Include="win32">
       <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
     </Filter>
-    <Filter Include="resource\menu">
-      <UniqueIdentifier>{e57aced8-791d-4731-93d8-9f6386df873f}</UniqueIdentifier>
-    </Filter>
     <Filter Include="resource\game">
-      <UniqueIdentifier>{beb0199d-d8d3-4ee9-9729-24861c5f0e0b}</UniqueIdentifier>
+      <UniqueIdentifier>{32f52671-9235-4577-9805-be5490e95f23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\menu">
+      <UniqueIdentifier>{21b88f77-2864-4fc8-bb56-69d2d0e8f566}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -24,16 +24,10 @@
     <ClCompile Include="..\Classes\AppDelegate.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
     <ClCompile Include="..\Classes\GameScene.cpp">
       <Filter>src</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\MenuScene.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\MenuLayer.cpp">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>
@@ -44,16 +38,10 @@
     <ClInclude Include="..\Classes\AppDelegate.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\HelloWorldScene.h">
-      <Filter>src</Filter>
-    </ClInclude>
     <ClInclude Include="..\Classes\GameScene.h">
       <Filter>src</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\MenuScene.h">
-      <Filter>src</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\MenuLayer.h">
       <Filter>src</Filter>
     </ClInclude>
   </ItemGroup>
@@ -68,6 +56,63 @@
     </Image>
     <Image Include="..\Resources\ball.png">
       <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\game\card_2.png">
+      <Filter>resource\game</Filter>
+    </Image>
+    <Image Include="..\Resources\game\card_3.png">
+      <Filter>resource\game</Filter>
+    </Image>
+    <Image Include="..\Resources\game\card_4.png">
+      <Filter>resource\game</Filter>
+    </Image>
+    <Image Include="..\Resources\game\card_5.png">
+      <Filter>resource\game</Filter>
+    </Image>
+    <Image Include="..\Resources\game\card_6.png">
+      <Filter>resource\game</Filter>
+    </Image>
+    <Image Include="..\Resources\game\card-back.png">
+      <Filter>resource\game</Filter>
+    </Image>
+    <Image Include="..\Resources\game\game-bg.png">
+      <Filter>resource\game</Filter>
+    </Image>
+    <Image Include="..\Resources\game\o.png">
+      <Filter>resource\game</Filter>
+    </Image>
+    <Image Include="..\Resources\game\x.png">
+      <Filter>resource\game</Filter>
+    </Image>
+    <Image Include="..\Resources\game\card_1.png">
+      <Filter>resource\game</Filter>
+    </Image>
+    <Image Include="..\Resources\menu\menu-bg.png">
+      <Filter>resource\menu</Filter>
+    </Image>
+    <Image Include="..\Resources\menu\option-0.png">
+      <Filter>resource\menu</Filter>
+    </Image>
+    <Image Include="..\Resources\menu\option-1.png">
+      <Filter>resource\menu</Filter>
+    </Image>
+    <Image Include="..\Resources\menu\play-0.png">
+      <Filter>resource\menu</Filter>
+    </Image>
+    <Image Include="..\Resources\menu\play-1.png">
+      <Filter>resource\menu</Filter>
+    </Image>
+    <Image Include="..\Resources\menu\quit-0.png">
+      <Filter>resource\menu</Filter>
+    </Image>
+    <Image Include="..\Resources\menu\quit-1.png">
+      <Filter>resource\menu</Filter>
+    </Image>
+    <Image Include="..\Resources\menu\help-0.png">
+      <Filter>resource\menu</Filter>
+    </Image>
+    <Image Include="..\Resources\menu\help-1.png">
+      <Filter>resource\menu</Filter>
     </Image>
   </ItemGroup>
 </Project>

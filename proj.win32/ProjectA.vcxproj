@@ -146,17 +146,13 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y
   <ItemGroup>
     <ClCompile Include="..\Classes\AppDelegate.cpp" />
     <ClCompile Include="..\Classes\GameScene.cpp" />
-    <ClCompile Include="..\Classes\HelloWorldScene.cpp" />
     <ClCompile Include="..\Classes\MenuScene.cpp" />
-    <ClCompile Include="..\Classes\MenuLayer.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Classes\AppDelegate.h" />
     <ClInclude Include="..\Classes\GameScene.h" />
-    <ClInclude Include="..\Classes\HelloWorldScene.h" />
     <ClInclude Include="..\Classes\MenuScene.h" />
-    <ClInclude Include="..\Classes\MenuLayer.h" />
     <ClInclude Include="main.h" />
   </ItemGroup>
   <ItemGroup>
@@ -176,7 +172,26 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\Resources\ball.png" />
+    <Image Include="..\Resources\game\card-back.png" />
+    <Image Include="..\Resources\game\card_1.png" />
+    <Image Include="..\Resources\game\card_2.png" />
+    <Image Include="..\Resources\game\card_3.png" />
+    <Image Include="..\Resources\game\card_4.png" />
+    <Image Include="..\Resources\game\card_5.png" />
+    <Image Include="..\Resources\game\card_6.png" />
+    <Image Include="..\Resources\game\game-bg.png" />
+    <Image Include="..\Resources\game\o.png" />
+    <Image Include="..\Resources\game\x.png" />
     <Image Include="..\Resources\Icon-57.png" />
+    <Image Include="..\Resources\menu\help-0.png" />
+    <Image Include="..\Resources\menu\help-1.png" />
+    <Image Include="..\Resources\menu\menu-bg.png" />
+    <Image Include="..\Resources\menu\option-0.png" />
+    <Image Include="..\Resources\menu\option-1.png" />
+    <Image Include="..\Resources\menu\play-0.png" />
+    <Image Include="..\Resources\menu\play-1.png" />
+    <Image Include="..\Resources\menu\quit-0.png" />
+    <Image Include="..\Resources\menu\quit-1.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

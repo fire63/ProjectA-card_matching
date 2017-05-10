@@ -11,7 +11,7 @@ USING_NS_CC;
 #define TAG_MENUITEM_QUIT   3
 
 
-class MenuScene : public LayerColor
+class MenuScene : public Layer
 {
 public:
 

@@ -1,4 +1,5 @@
 #include "MenuScene.h"
+#include "GameScene.h"
 
 
 Scene* MenuScene::createScene()
@@ -55,4 +56,31 @@ void MenuScene::initMenu()
 	menu->alignItemsVerticallyWithPadding(20); //정렬
 	this->addChild(menu);
 
+}
+
+void MenuScene::menuCallback(Ref *sender)
+{
+	auto item = (MenuItem*)sender;   //menuCallback에서 받은 sender를 item으로 지정
+
+	switch (item->getTag()) 
+	{
+	case TAG_MENUITEM_PLAY:  // 플래이 선택시 화면 전환
+		{
+		auto scene = TransitionFadeTR::create(1.0, GameScene::createScene());
+		Director::getInstance()->replaceScene(scene);
+		}
+			break;
+		case TAG_MENUITEM_HELP:
+			break; 
+		case TAG_MENUITEM_OPTION:
+			break;
+		case TAG_MENUITEM_QUIT:   //종료선택시 종료
+			Director::getInstance()->end();
+	#if(CC_TARGET_PLATFORM == CC_PLATFORM_IOS)
+			exit(0);
+	#endif
+			break;
+		default:
+			break;
+	}
 }
